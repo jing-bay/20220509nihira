@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div>
-    <p>ご意見いただきありがとうございました。</p>
-  </div>
-  <div>
-    <input type="submit" class="top_btn" value="トップページへ">
-  </div>
-</body>
+@extends('default')
 
-</html>
+@section('content')
+<div class="thx">
+    <span class="thx_text">ご意見いただきありがとうございました。</span>
+    <div class="submit">
+        <input type="submit" class="form_btn" value="トップページへ">
+    </div>
+</div>
+@endsection
